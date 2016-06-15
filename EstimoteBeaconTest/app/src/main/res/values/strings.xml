@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LocaliBeacon</string>
+    <string name="hello_world">Welcome</string>
+    <string name="editbox_hint">Enter a location</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_help">Help</string>
+    <string name="action_about">About</string>
+    <string name="text_button_query">Refresh</string>
+    <string name="loc_button_text">See on map</string>
+    <string name="geo_uri_without_coord">geo:0,0?q=</string>
+    <string name="title_activity_w05_detail_weather">w05DetailWeatherActivity</string>
+    <string name="view_on_map">View on Map</string>
+    <string name="refresh_button_text">Refresh</string>
+    <string name="city_name_setting">City Name</string>
+    <string name="city_name_default">London</string>
+    <string name="city_name">city_name</string>
+    <string name="iBeacon_recording_interval">iBeacon_recording_interval</string>
+    <string name="iBeacon_recording_interval_name">iBeacon recording interval (seconds)</string>
+    <string name="iBeacon_recording_interval_default">1</string>
+    <string name="iBeacon_recording_number">iBeacon_recording_number</string>
+    <string name="iBeacon_recording_number_name">Number of iBeacons shown/recorded</string>
+    <string name="iBeacon_recording_number_default">3</string>
+    <string name="title_activity_all_demos">LocaliBeacon</string>
+    <string name="title_activity_list_beacons">List iBeacons</string>
+    <string name="title_activity_distance_beacon">DistanceBeaconActivity</string>
+    <string name="title_activity_notify_demo">NotifyDemoActivity</string>
+    <string name="title_activity_characteristics_demo">CharacteristicsDemoActivity</string>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="button_list_beacon_text">List the iBeacons available</string>
+    <string name="button_start_service_text">Start localization service</string>
+    <string name="button_stop_service_text">Stop Localization service</string>
+    <string name="button_clear_loc_rec_text">Clear localization record</string>
+    <string name="button_export_loc_rec_text">Export localization record</string>
+    <string name="help_activity_title">Help</string>
+    <string name="help_main_title">Functionality of the buttons</string>
+    <string name="help_list_beacon_button">Takes you to another screen to show the information of all the iBeacons that can currently be detected</string>
+    <string name="help_start_service_button">Start a background service to gather received signal strength (RSS) value of the nearest 3 iBeacons and record in the database. You will see a non-disposable notification in the notification bar while the service is running. The refresh/recording interval can be changed in the settings</string>
+    <string name="help_stop_service_button">Stop the iBeacon RSS recording service in the background. The notification should also disappear.</string>
+    <string name="help_clear_loc_rec_button">Clear iBeacon RSS records in the database</string>
+    <string name="help_export_loc_rec_button">Export iBeacon RSS records in the database into a CSV file. The CSV file will be named with preamble "LocaliBeacon_Export" plus the current date and time. It will be placed at /sdcard/LocaliBeacon/. You may need a file browser to see the exported file.</string>
+
+    <string name="title_activity_about">About</string>
+    <string name="about_activity_title">About</string>
+    <string name="about_version">Version</string>
+    <string name="about_version_number">1.11</string>
+    <string name="about_latest_update_text">Last updated on</string>
+    <string name="about_latest_update_date">18 June 2015</string>
+    <string name="about_author">Author</string>
+    <string name="about_Huanjia_Yang">Huanjia Yang</string>
+    <string name="about_HY_email">huanjiayang@gmail.com</string>
+
+
+
+</resources>

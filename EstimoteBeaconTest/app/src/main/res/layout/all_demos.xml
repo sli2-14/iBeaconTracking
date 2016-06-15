@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10sp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="iBeacon testing:"
+        android:id="@+id/textViewBLEText"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/distance_demo_button"
+        android:background="@drawable/blue_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List the iBeacons available"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/placeholder03" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="iBeacon localization background service:"
+        android:id="@+id/textViewLocText"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/start_service_button"
+        android:background="@drawable/green_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Localization Service"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/placeholder02" />
+
+    <Button
+        android:id="@+id/stop_service_button"
+        android:background="@drawable/orange_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Localization Service"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/placeholder04" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Localization Record:"
+        android:id="@+id/textViewRecText"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/clear_db_button"
+        android:background="@drawable/blue_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear Localization Record"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/space01" />
+
+    <Button
+        android:id="@+id/debug_button"
+        android:background="@drawable/blue_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Export Localization Record"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/service_status_text"/>
+
+
+</LinearLayout>
